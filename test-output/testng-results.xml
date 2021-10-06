@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[f1]]>
+    </line>
+    <line>
+      <![CDATA[f2]]>
+    </line>
+    <line>
+      <![CDATA[i1]]>
+    </line>
+    <line>
+      <![CDATA[i2]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-20T12:43:26 IST" name="Suite" finished-at="2021-07-20T12:43:26 IST" duration-ms="104">
+    <groups>
+      <group name="F">
+        <method signature="Group.f()[pri:0, instance:TestNgPractice.Group@10959ece]" name="f" class="TestNgPractice.Group"/>
+        <method signature="Group.ff()[pri:0, instance:TestNgPractice.Group@10959ece]" name="ff" class="TestNgPractice.Group"/>
+      </group> <!-- F -->
+      <group name="I">
+        <method signature="Group.i()[pri:0, instance:TestNgPractice.Group@10959ece]" name="i" class="TestNgPractice.Group"/>
+        <method signature="Group.ii()[pri:0, instance:TestNgPractice.Group@10959ece]" name="ii" class="TestNgPractice.Group"/>
+      </group> <!-- I -->
+    </groups>
+    <test started-at="2021-07-20T12:43:26 IST" name="Test" finished-at="2021-07-20T12:43:26 IST" duration-ms="104">
+      <class name="TestNgPractice.Group">
+        <test-method signature="f()[pri:0, instance:TestNgPractice.Group@10959ece]" started-at="2021-07-20T12:43:26 IST" name="f" finished-at="2021-07-20T12:43:26 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[f1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="ff()[pri:0, instance:TestNgPractice.Group@10959ece]" started-at="2021-07-20T12:43:26 IST" name="ff" finished-at="2021-07-20T12:43:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[f2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ff -->
+        <test-method signature="i()[pri:0, instance:TestNgPractice.Group@10959ece]" started-at="2021-07-20T12:43:26 IST" name="i" finished-at="2021-07-20T12:43:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[i1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- i -->
+        <test-method signature="ii()[pri:0, instance:TestNgPractice.Group@10959ece]" started-at="2021-07-20T12:43:26 IST" name="ii" finished-at="2021-07-20T12:43:26 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[i2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ii -->
+      </class> <!-- TestNgPractice.Group -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
